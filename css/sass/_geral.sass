@@ -1,0 +1,654 @@
+*
+	outline: none
+	text-decoration: none
+
+body
+	margin: 0
+	padding: 0
+
+h3
+	width: 100%
+	height: 42px
+	font-family: 'ubuntulight'
+	font-size: 18px
+	color: #e5e6e6
+	margin: 62px 0 0 10px
+	cursor: pointer
+
+strong
+	font-family: 'ubuntubold'
+
+
+.alinhamento
+	width: 1100px
+	height: auto
+	margin: 0 auto
+
+.divide
+	width: 100%
+	float: left
+	margin: 15px 0
+
+#topo
+	width: 100%
+	height: 79px
+	float: left
+	background: url("../../imagens/bg-topo.png") no-repeat center
+	position: fixed
+	z-index: 999999
+
+	#menu
+		width: auto
+		height: auto
+		float: left
+		margin: 5px 0 0 0
+
+		li
+			float: left
+			padding: 0 35px 0 0
+
+			ul
+				display: none
+				li
+					font-family: 'ubuntubold'
+					font-size: 16.85px
+					color: #e5e6e6
+					background: #232323
+					padding: 8px 8px
+					margin: 5px 0 0 0
+					position: absolute
+
+			.icon
+				cursor: pointer
+
+			.home
+				width: 29px
+				height: 35px
+				background: url("../../imagens/icons-menu/home.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+			.home:hover
+				background: url("../../imagens/icons-menu/home-hover.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+
+			.quemsomos
+				width: 34px
+				height: 35px
+				background: url("../../imagens/icons-menu/quemsomos.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+			.quemsomos:hover
+				background: url("../../imagens/icons-menu/quemsomos-hover.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+
+			.empresa
+				width: 28px
+				height: 35px
+				background: url("../../imagens/icons-menu/empresa.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+			.empresa:hover
+				background: url("../../imagens/icons-menu/empresa-hover.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+
+			.galeria
+				width: 18px
+				height: 35px
+				background: url("../../imagens/icons-menu/galeria.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+			.galeria:hover
+				background: url("../../imagens/icons-menu/galeria-hover.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+
+			.empreendimentos
+				width: 26px
+				height: 35px
+				background: url("../../imagens/icons-menu/empreendimentos.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+			.empreendimentos:hover
+				background: url("../../imagens/icons-menu/empreendimentos-hover.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+
+			.kanji
+				width: 32px
+				height: 35px
+				background: url("../../imagens/icons-menu/kanji.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+			.kanji:hover
+				background: url("../../imagens/icons-menu/kanji-hover.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+
+			.contato
+				width: 31px
+				height: 35px
+				background: url("../../imagens/icons-menu/contato.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+			.contato:hover
+				background: url("../../imagens/icons-menu/contato-hover.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+
+			.dinheiro
+				width: 31px
+				height: 35px
+				background: url("../../imagens/icons-menu/dinheiro.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+			.dinheiro:hover
+				background: url("../../imagens/icons-menu/dinheiro-hover.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+
+			.blog
+				width: 29px
+				height: 35px
+				background: url("../../imagens/icons-menu/blog.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+			.blog:hover
+				background: url("../../imagens/icons-menu/blog-hover.png") no-repeat
+				transition: 0.3s
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+
+		li:hover ul
+			display: block
+
+	.facebook
+		width: 30px
+		height: 35px
+		float: right
+		background: url("../../imagens/icons-menu/facebook.png") no-repeat
+		margin: 5px 10px 0 0
+	.flickr
+		width: 32px
+		height: 35px
+		float: right
+		background: url("../../imagens/icons-menu/flickr.png") no-repeat
+		margin: 5px 0 0 0
+
+
+
+#home
+	width: 100%
+	height: 629px
+	float: left
+	background: url("../../imagens/bg-home.png") no-repeat center
+	margin-top: -98px
+
+#quemsomos
+	width: 100%
+	height: 1118px
+	float: left
+	background: url("../../imagens/bg-quemsomos.png") no-repeat center
+
+	.logo-quemsomos
+		width: 43px
+		height: 88px
+		margin: 0 auto
+		background: url("../../imagens/logo-quemsomos.png") no-repeat
+		margin-top: 90px
+
+	.titulo
+		width: 100%
+		font-family: 'ubunturegular'
+		font-size: 45.45px
+		color: #262728
+		float: left
+		text-align: center
+		margin-top: 40px
+
+	.sub-titulo
+		width: 100%
+		font-family: 'ubuntulight'
+		font-size: 18px
+		color: #262728
+		float: left
+		text-align: center
+		margin: 20px 0 0 0
+
+	.box-video
+		width: 736px - 84
+		height: 392px - 38
+		margin: 0 auto
+		background: url("../../imagens/bg-video.png") no-repeat
+		margin-top: 150px
+		padding: 19px 42px
+
+	.sub-titulo-2
+		width: 100%
+		font-family: 'ubunturegular'
+		font-size: 21px
+		color: #262728
+		float: left
+		text-align: center
+		margin: 20px 0 0 0
+		line-height: 30px
+
+	.texto
+		width: 750px
+		margin: 0 auto
+		font-family: "Myriad Pro"
+		font-size: 15px
+		color: #262728
+		font-weight: italic
+		text-align: left
+		margin-top: 120px
+
+	.btn-empreendimentos
+		width: 205px
+		height: 28px
+		margin: 0 auto
+		background: #2e2e2e
+		text-align: center
+		color: #fff
+		font-family: 'ubunturegular'
+		font-size: 13.77px
+		padding-top: 10px
+		margin-top: 30px
+		cursor: pointer
+
+		a
+			color: #fff
+		
+
+#empresa
+	width: 100%
+	height: 765px
+	float: left
+	background: url("../../imagens/bg-empresa.png") no-repeat center
+
+	.mapa
+		width: 431px
+		height: 469px
+		float: left
+		background: url("../../imagens/mapa.png") no-repeat
+		margin-top: 130px
+
+	.box
+		width: 540px
+		height: auto
+		float: right
+		margin-top: 75px
+
+		.icon-empresa
+			width: 99px
+			height: 102px
+			float: left
+			background: url("../../imagens/icon-empresa.png") no-repeat
+			margin: 0 0 0 100px
+
+		.titulo
+			width: 100%
+			font-family: 'ubuntubold'
+			font-size: 45.45px
+			color: #232323
+			float: left
+			margin: 32px 0 0 50px
+
+		.sub-titulo
+			width: 100%
+			font-family: 'ubuntulight'
+			font-size: 18px
+			color: #272727
+			float: left
+			margin: 10px 0 0 50px
+
+			span
+				color: #ff0000
+
+		.titulo-2
+			width: 100%
+			font-family: 'ubuntubold'
+			font-size: 18px
+			color: #232323
+			float: left
+			margin: 30px 0 0 50px
+
+		.texto
+			width: 480px
+			font-family: 'ubuntulight'
+			font-size: 12.65px
+			color: #272727
+			float: left
+			text-align: left
+			margin: 20px 0 0 50px
+
+		.carousel
+			float: left
+			margin-top: 35px
+
+			img
+				margin: 0 5px
+
+		button
+			border: 0
+			background: none
+			float: left
+			margin: 65 0 0 0
+			cursor: pointer
+
+
+#galeria-empresa
+	width: 100%
+	height: 519px
+	float: left
+
+	.img-1
+		width: 100%
+		height: 519px
+		float: left
+		background: url("../../imagens/img-balneario.png") no-repeat center
+	.img-2
+		width: 100%
+		height: 519px
+		float: left
+		background: url("../../imagens/img-florianopolis.png") no-repeat center
+	.img-3
+		width: 100%
+		height: 519px
+		float: left
+		background: url("../../imagens/img-curitiba.png") no-repeat center
+
+
+#empreendimentos
+	width: 100%
+	height: 779px
+	float: left
+	background: url("../../imagens/bg-empreendimentos.png") no-repeat center
+
+	#empreendimentos-principal
+		display: block
+
+	.fechar
+		width: 73px
+		height: 28px
+		float: right
+		background: url("../../imagens/fechar.png") no-repeat
+		position: absolute
+		z-index: 9999
+		margin: 80px 0 0 1000px
+		cursor: pointer
+		display: none
+
+	.em
+		display: none
+
+	.em-esquerdo
+		width: 450px
+		height: auto
+		float: left
+		margin: 190px 0 0 0
+		text-align: center
+
+		img
+			width: 70%
+
+	.em-direito
+		width: 540px
+		height: auto
+		float: right
+		padding-right: 20px
+		margin: 160px 0 0 0
+
+		.titulo
+			width: 100%
+			font-family: 'ubuntubold'
+			font-size: 45.45px
+			color: #fff
+			float: left
+			text-align: right
+			padding: 15px 0
+
+		span
+			width: 100%
+			font-family: 'ubuntulight'
+			font-size: 18px
+			color: #fff
+			float: left
+			text-align: right
+			margin: 50px 0 0 0
+
+			a
+				font-family: 'ubuntulight'
+				font-size: 18px
+				color: #fff
+
+		.descricao
+			font-family: 'ubuntulight'
+			font-size: 12px
+			color: #fff
+			float: left
+			text-align: right
+			margin: 20px 0 0 0
+
+	.box
+		width: 470px - 15
+		height: auto
+		float: left
+		padding-left: 15px
+		margin: 178px 0 0 0
+
+		.icon-empresa
+			width: 99px
+			height: 102px
+			float: left
+			background: url("../../imagens/icon-empresa.png") no-repeat
+			margin: 0 0 0 170px
+
+		.titulo
+			width: 100%
+			font-family: 'ubuntubold'
+			font-size: 45.45px
+			color: #232323
+			float: left
+			margin: 30px 0 0 0
+
+		.sub-titulo
+			width: 100%
+			font-family: 'ubuntulight'
+			font-size: 18px
+			color: #272727
+			float: left
+			margin: 15px 0 0 0
+			line-height: 22px
+
+		.texto
+			width: 442px
+			font-family: 'ubuntulight'
+			font-size: 12.65px
+			color: #272727
+			float: left
+			text-align: left
+			margin: 20px 0 0 0
+
+	.box-2
+		width: 570px
+		height: auto
+		float: right
+		margin: 178px 0 0 0
+		padding: 100px 0 0 0
+
+		.titulo
+			width: 100%
+			font-family: 'ubuntubold'
+			font-size: 45.45px
+			color: #fff
+			float: left
+			margin: 30px 0 0 110px
+
+		.sub-titulo
+			width: 100%
+			font-family: 'ubuntulight'
+			font-size: 18px
+			color: #fff
+			float: left
+			margin: 15px 0 0 110px
+			line-height: 22px
+
+		.box-img
+			width: auto
+			float: left
+			background: rgba(23,23,23,0.2)
+			padding: 10px
+			border-radius: 10px
+			margin: 40px 0 0 36px
+
+			li
+				float: left
+
+			img
+				margin: 0 7px
+				cursor: pointer
+
+			.carousel-3
+				float: left
+
+			button
+				padding: 0
+				margin: 0
+				background: none
+				border: 0
+
+			.prev
+				position: absolute
+				margin: 19px 0 0 -55px
+			.next
+				position: absolute
+				margin: 19px 0 0 8px
+
+#contato
+	width: 100%
+	height: 739px
+	float: left
+	background: url("../../imagens/bg-contato.png") no-repeat center
+
+	.titulo
+		font-family: 'ubuntubold'
+		font-size: 41.75
+		color: #282828
+		float: left
+	.sub-titulo
+		font-family: 'ubuntulight'
+		font-size: 18px
+		color: #272727
+		float: left
+		margin: 20px 0 22px 2px
+
+	.box-1
+		width: 430px
+		height: auto
+		float: left
+		margin: 165px 0 0 69px
+
+		p
+			width: 100%
+			font-family: 'ubuntubold'
+			font-size: 25px
+			color: #535151
+			float: left
+
+		span
+			width: 100%
+			font-family: 'ubunturegular'
+			font-size: 20px
+			color: #6d6b6b
+			float: left
+			margin: 10px 0 0 0
+
+	.box-2
+		width: 330px
+		height: auto
+		float: left
+		margin: 165px 0 0 150px
+
+		input[type="text"]
+			width: 304px
+			height: 30px
+			float: left
+			border: 0
+			background: #fff
+			margin: 10px 0 0 15px
+			padding: 0 10px
+			color: #6d6b6b
+
+		textarea
+			width: 304px
+			height: 100px
+			max-width: 304px
+			max-height: 100px
+			float: left
+			border: 0
+			background: #fff
+			margin: 10px 0 0 15px
+			padding: 8px 10px
+			color: #6d6b6b
+
+		input[type="submit"]
+			width: 113px
+			height: 30px
+			float: left
+			background: #303030
+			border: 0
+			color: #fff
+			margin: 10px 0 0 207px
+			cursor: pointer
+
+#reflexao
+	width: 100%
+	height: 71px
+	float: left
+	background: url("../../imagens/bg-reflexao.png") no-repeat center
+	cursor: pointer
+
+#img-reflexao
+	width: 100%
+	height: 666px
+	float: left
+	background: url("../../imagens/img-reflexao.png") no-repeat center
+	display: block

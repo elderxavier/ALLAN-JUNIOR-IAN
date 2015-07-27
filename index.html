@@ -1,0 +1,613 @@
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="HandheldFriendly" content="true"/>
+	<link rel="stylesheet" href="css/stylesheets/screen.css">
+  <link rel="stylesheet" href="css/stylesheets/stylesheet.css">
+
+  <script src="js/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+
+  <script type="text/javascript" src="js/functions.js"></script>
+
+  <!-- slider home -->
+  <script src="sliderengine/amazingslider.js"></script>
+  <script src="sliderengine/initslider-1.js"></script>
+
+  <!-- galeria servicos -->
+  <script src="js/jquery.colorbox.js"></script>
+  <link rel="stylesheet" href="css/stylesheets/colorbox.css" />
+
+
+  <!-- accordion -->
+  <script src="js/jquery-ui.js"></script>
+
+  <!-- slide cidades -->
+  <script src="js/bjqs-1.3.js"></script>
+  <link rel="stylesheet" href="css/stylesheets/bjqs.css" />
+  <link rel="stylesheet" href="css/stylesheets/demo.css" /> 
+
+  <link type="text/css" href="css/stylesheets/jquery.mThumbnailScroller.css" rel="stylesheet" />
+  <link type="text/css" href="css/stylesheets/responsivo.css" rel="stylesheet" />
+  <link type="text/css" href="css/stylesheets/paginas_responsivo.css" rel="stylesheet" />
+
+  <!-- carrousel -->
+  <script type="text/javascript" src="js/jquery.mThumbnailScroller.js"></script>
+  <script type="text/javascript">
+      $(function() {         
+
+        $(".carousel").mThumbnailScroller({
+            type : "click-thumb",  
+            markup : {
+              buttonsPlaceholder : "outside", 
+              buttonsHTML : {
+                right : '<img src="imagens/next.png">',
+                left : '<img src="imagens/prev.png">'
+              }
+            }
+        });
+
+
+        $(".carousel-3").mThumbnailScroller({
+            type : "click-thumb",  
+            markup : {
+              buttonsPlaceholder : "outside", 
+              buttonsHTML : {
+                right : '<img src="imagens/next.png">',
+                left : '<img src="imagens/prev.png">'
+              }
+            }
+        });
+       
+       /* $(".carousel-3").jCarouselLite({
+               btnNext: ".next",
+               btnPrev: ".prev",             
+               autoWidth: true,
+              responsive: true
+          });          
+          $(".carousel").jCarouselLite({
+               btnNext: ".next",
+               btnPrev: ".prev",
+               autoWidth: true,
+              responsive: true
+          });*/
+          
+      });
+  </script>
+  <script>
+  $(function() {
+     $("#accordion").accordion({
+          collapsible: true,
+          active: false
+      });
+  });
+  </script>
+
+  <script class="secret-source">
+      jQuery(document).ready(function($) {
+
+          $('#galeria-empresa').bjqs({
+              height      : 520,
+              width       : "100%",
+              responsive  : true
+          });
+
+      });
+  </script>
+
+  <script>
+    $(document).ready(function(){
+      //Examples of how to assign the Colorbox event to elements
+      $(".group3").colorbox({rel:'group3', width:"1012px", height:"483px"});
+    });
+  </script>
+
+	<title>Allan Junior Ian</title>
+</head>
+<body>
+  <div id="topo">
+    
+    <div class="container-holder">
+        <div class="wrapper-content">
+      <div id="menu">
+        <ul>
+          <a href="#home"><li><div class="icon home"></div>
+            <ul>
+              <li>HOME</li>
+            </ul>
+          </li></a>
+          <a href="#quemsomos"><li><div class="icon quemsomos"></div>
+            <ul>
+              <li>QUEM SOMOS</li>
+            </ul>
+          </li></a>
+          <a href="#empresa"><li><div class="icon empresa"></div>
+            <ul>
+              <li>EMPRESA</li>
+            </ul>
+          </li></a>
+          <a href="#empreendimentos"><li><div class="icon empreendimentos"></div>
+            <ul>
+              <li>EMPREENDIMENTOS</li>
+            </ul>
+          </li></a>
+          <a href="#reflexao" class="reflexao-menu"><li><div class="icon kanji"></div>
+            <ul>
+              <li>REFLEXÃO</li>
+            </ul>
+          </li></a>
+          <a href="#contato"><li><div class="icon contato"></div>
+            <ul>
+              <li>CONTATO</li>
+            </ul>
+          </li></a>
+          <!--<a href=""><li><div class="icon blog"></div>
+            <ul>
+              <li>BLOG</li>
+            </ul>
+          </li></a>-->
+        </ul>
+      </div>
+      <a href="https://www.facebook.com/allanjunior.ian" target="_blank" title="Facebook"><div class="facebook"></div></a>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="container-holder" style="text-align: center"><img width="300" src="imagens/logo.png" style="margin-top: 60px"></div>
+	<div id="home">
+    <div class="container-holder">
+      
+      <div style="margin: 90px 0 0 0; position:relative;">
+        
+          <!-- Insert to your webpage where you want to display the slider -->
+          <div id="amazingslider-1" style="display:block;position:relative;margin:16px auto 56px;">
+              <ul class="amazingslider-slides" style="display:none;">
+                  <li><a href="http://sii9.com.br" target="_blank"><img src="imagens/slides/slide_sii9.jpg" alt="Sii9 Creative Studio" /></a></li>
+                  <li><a href="http://mixpromo.com.br" target="_blank"><img src="imagens/slides/slidemix.jpg" alt="Mix Promo" /></a></li>
+                  <li><a href="http://acheicommerce.com.br" target="_blank"><img src="imagens/slides/slide_achei.jpg" alt="" /></a></li>
+                  <li><a href="http://reidasvendas.com.br" target="_blank"><img src="imagens/slides/slide_reidasv.jpg" alt="" /></a></li>
+                  <li><a href="http://tudoempecas.com.br" target="_blank"><img src="imagens/slides/slide_tudopecas.jpg" alt="" /></a></li>
+                  <li><a href="http://v8motors.com.br" target="_blank"><img src="imagens/slides/slide_v8.jpg" alt="" /></a></li>
+                  <li><a href="http://tudoemofertas.com.br" target="_blank"><img src="imagens/slides/slide_tudofertas.jpg" alt="" /></a></li>
+              </ul>
+              <ul class="amazingslider-thumbnails" style="display:none;">
+                  <li><img src="imagens/slides/slide_sii9.jpg" alt="" /></li>
+                  <li><img src="imagens/slides/slidemix.jpg" alt="" /></li>
+                  <li><img src="imagens/slides/slide_achei.jpg" alt="" /></li>
+                  <li><img src="imagens/slides/slide_reidasv.jpg" alt="" /</li>
+                  <li><img src="imagens/slides/slide_tudopecas.jpg" alt="" /></li>
+                  <li><img src="imagens/slides/slide_v8.jpg" alt="" /></li>
+                  <li><img src="imagens/slides/slide_tudofertas.jpg" alt="" /></li>              
+              </ul>
+        </div>
+          <!-- End of body section HTML codes -->
+      </div>
+
+    </div>
+  </div>
+
+  <div id="quemsomos">
+    <div class="container-holder">
+      <div class="container container12">
+      <div class="wrapper-content">
+
+        <div class="logo-quemsomos"></div>
+        <div class="titulo">Somos <strong>diferentes</strong> de tudo.</div>
+        <div class="sub-titulo">INOVAR É A PALAVRA DO MOMENTO!</div>    
+        
+        <div class="clear"></div>
+        <div class="box-video">
+          <img src="imagens/img-video.png">
+        </div>
+
+        <div class="sub-titulo-2">
+          ALLAN JUNIOR IAN <br/>
+          <span style="font-size: 16px">SOLUÇÕES DIGITAIS</span>
+        </div>
+
+        <div class="texto">
+          <span style="font-weight: bold">Missão:</span> “Realizar e desenvolver um trabalho sério e profissional, conquistando e superando as expectativas de 
+          nossos parceiros, colaboradores e clientes finais”. 
+          <br/><br/>
+          <span style="font-weight: bold">Visão:</span> “Ser referência em desenvolvimentos de projetos online e off-line, estando presente em 
+          todo o território nacional”. 
+          <br/><br/>
+          <span style="font-weight: bold">Valores:</span> “Profissionalismo, Ética, Transparência, Comprometimento, Competência, Credibilidade e Organização.”
+        </div>
+
+        <div class="btn-empreendimentos"><a href="#empreendimentos">Veja nossos empreendimentos</a></div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div id="empresa">
+    <div class="container-holder">
+      <div class="container container12">
+      <img class="mapa" src="imagens/mapa.png" alt="">      
+      <div class="wrapper-content">
+        <div class="box">
+          <div class="icon-empresa"></div>
+          <div class="titulo">EMPRESA</div>
+          <div class="sub-titulo">DESCUBRA ONDE ESTAMOS,<br/>QUEM SOMOS E COMO <span>TRABALHAMOS.</span></div>
+
+          <div class="titulo-2">BALNEÁRIO CAMBORIÚ</div>
+          <div class="texto">
+            Nasce nesse contexto, a proposta é inovar, Com sede em Balneário Camboriú, a empresa é exclusivamente voltada para o 
+            desenvolvimento de projetos online e off-line. Onde criamos desde o Nome, Marca, Identidade Visual, Site / loja Virtual.
+            <br/>
+            Os Empreendimentos são desenvolvidos tanto para uma parceria como podem ser vendidos.
+            <br/><br/>
+            Você Empreendedor é uma ótima oportunidade, FAÇA PARTE! entre em contato e agende uma reunião para mais informações.
+          </div>
+
+          <div class="carousel-holder">  
+            <ul class="carousel">
+               <ul >                   
+                   <li><img width="102" height="106" src="imagens/foto2floripa.jpg"></li>
+                   <li><img width="102" height="106" src="imagens/foto3floripa.jpg"></li>
+                   <li><img width="102" height="106" src="imagens/foto4floripa.jpg"></li>
+                   <li><img width="102" height="106" src="imagens/fotob1.png"></li>
+                   <li><img width="102" height="106" src="imagens/fotob2.png"></li>
+                   <li><img width="102" height="106" src="imagens/fotob3.png"></li>
+                   
+               </ul>
+             </ul>
+           </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    </div>
+    <div id="bottom-empresa"></div>
+  </div>
+
+  <div id="galeria-empresa">
+
+        <!-- start Basic Jquery Slider -->
+        <ul class="bjqs">
+          <li><div class="img-1"><img src="" alt=""/></div></li>
+          <!--<li><div class="img-3"></div></li>
+          <li><div class="img-2"></div></li>-->
+        </ul>
+        <!-- end Basic jQuery Slider -->
+    <!-- End outer wrapper -->
+  </div>
+
+  <div id="empreendimentos">
+    <div class="container-holder">
+      <!-- empreendimento principal -->      
+      <div class="container container12">
+        <div class="wrapper-content" >
+      <div id="empreendimentos-principal">
+        <div class="box">
+          <div class="icon-empresa"></div>
+          <div class="titulo">FAÇA PARTE</div>
+          <div class="sub-titulo">VEJA ALGUNS DE NOSSOS PRODUTOS </br/>E FERRAMENTAS DESENVOLVIDAS POR NOSSA EQUIPE</div>
+          <div class="texto">
+            UMA SUITE DE EMPRESAS COMPROMETIDAS COM O FUTURO
+            <br/><br/>
+            Dinamismo, criatividade, praticidade.
+            <br/>
+            Três simples palavras que evidenciam aqueles que fazem a diferença no mercado. Trazem dinamismo à rotina de uma empresa, aplicam criatividade na forma de obter novos negócios e descomplica a vida dos que buscam novidades, deixando tudo mais prático. 
+            <br/><br/>
+            <span style="font-weight: bold">Essa é a proposta da Allan Junior Ian Soluções Digitais.</span>
+
+          </div>
+        </div>
+      </div>
+
+
+        <div class="box-2">
+          <div class="container container12">
+          <div class="wrapper-content">
+
+          <div class="titulo">EMPREENDIMENTOS</div>
+          <div class="sub-titulo">CLIQUE PARA VER MAIS INFORMAÇÕES</div>
+          
+          
+          <div class="box-img">
+            <div class="carousel-3">
+              <ul>                
+                <li><a class="cbox-el" href="#em-6"><img width="73px" height="68px" src="imagens/empreendimentos/sii9.png" ></a></li>
+                <li><a class="cbox-el" href="#em-7"><img width="73px" height="68px" src="imagens/empreendimentos/mix.png"></a></li>
+                <li><a class="cbox-el" href="#em-8"><img width="73px" height="68px" src="imagens/empreendimentos/logo_achei.png"></a></li>
+                <li><a class="cbox-el" href="#em-9"><img width="73px" height="68px" src="imagens/empreendimentos/rei.png"></a></li> 
+                <li><a class="cbox-el" href="#em-10"><img width="73px" height="68px" src="imagens/empreendimentos/tp.png"></a></li> 
+                <li><a class="cbox-el" href="#em-11"><img width="73px" height="68px" src="imagens/empreendimentos/v8.png"></a></li>                           
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+      <!-- final empreendimento principal -->
+
+      <!-- fechar --><div class="container-holder"><div class="fechar"></div></div><!-- final fechar -->
+
+     
+      <!-- em-9 -->
+      <div class="em" id="em-6">
+        <div class="em-esquerdo">
+          <img src="imagens/em-kanji.png">
+        </div>
+        <div class="em-direito">
+          <div class="titulo">Sii9 - Creative Studio</div>
+
+          <a href="http://sii9.com.br" target="_blank"><span>Website: sii9.com.br</span></a>
+
+          <div class="descricao">
+            O Estúdio
+            <br/><br/>
+            Simples... mas sofisticado!
+            Soluções de grande impacto, criamos o inimaginável para o sucesso da sua marca.
+            <br/><br/>
+            O objetivo é um só, tornar a comunicação entre o cliente e o leitor tão clara quanto possível. Imaginar de
+            maneira integrada afim de agregar para atender às necessidades de sua empresa. O principal compromisso é a 
+            oferta de soluções variadas e diferenciadas, quais valores quer transmitir, qual o seu público-alvo e como 
+            gostaria de ser vista. 
+            <br/><br/>
+            Criatividade e coerência, com método, planejamento e compromisso.
+
+          </div>
+        </div>
+      </div><!-- final em-9 -->
+
+      <!-- em-0 -->
+      <div class="em" id="em-7">
+        <div class="em-esquerdo">
+          <img src="imagens/em-mixlogo.png">
+        </div>
+        <div class="em-direito">
+          <div class="titulo">MIX PROMO</div>
+
+          <a href="http://mixpromo.com.br" target="_blank"><span>Website: mixpromo.com.br</span></a>
+
+          <div class="descricao">
+            O QUE É MIX PROMO?
+            <br/><br/>
+            MIX PROMO é um site de compras coletivas que trás uma regra de negócio inovadora.
+            <br/><br/>
+            *Não precisa ter um cartão de crédito, pague diretamente para o estabelecimento
+            <br/><br/>
+            *Garantimos um bom atendimento
+            <br/><br/>
+            *Você avalia como foi atendido pelo parceiro
+            <br/><br/>
+            A Mix Promo trabalha para que isso seja uma realidade, com o programa de avaliação
+            de nossos parceiros, depois de usufluir de uma promoção comprada em nosso site, você
+            tem a oportunidade de avaliar o atendimento que lhe foi oferecido e demonstrar para
+            todos como foi atendido pela empresa!
+            <br/><br/>
+            Já pensou em obter um produto ou serviço com um super desconto e ainda ser atendido
+            igualmente pelo estabelecimento?
+          </div>
+        </div>
+      </div><!-- final em-0 -->
+
+
+       <!-- em-0 -->
+      <div class="em" id="em-8">
+        <div class="em-esquerdo">          
+        </div>
+        <div class="em-direito">
+          <div class="titulo"></div>
+          <div class="descricao">    
+          </div>
+        </div>
+      </div><!-- final em-0 -->
+
+      
+      <!-- em-2 -->
+      <div class="em" id="em-9">
+        <div class="em-esquerdo">
+          <img src="imagens/em-reidasvendas.png">
+        </div>
+        <div class="em-direito">
+          <div class="titulo">REI DAS VENDAS</div>
+
+          <a href="http://reidasvendas.com.br" target="_blank"><span>Website: reidasvendas.com.br</span></a>
+
+          <div class="descricao">
+            
+          </div>
+        </div>
+      </div><!-- final em-2 -->    
+
+
+
+      <!-- em-1 -->
+      <div class="em" id="em-10">
+        <div class="em-esquerdo">
+          <img src="imagens/em-tudoempecas.png">
+        </div>
+        <div class="em-direito">
+          <div class="titulo">TUDO EM PEÇAS</div>
+
+          <a href="http://tudoempecas.com.br" target="_blank"><span>Website: tudoempecas.com.br</span></a>
+
+          <div class="descricao">
+            A Tudo em Peças é o meio mais rápido para você adquirir suas peças. Funcionamos como um elo entre o solicitante 
+            que procura alguma peça de veículo automotivo e parceiro lojista que deseja vender suas peças. Você se cadastra 
+            gratuitamente, solicita sua peça, nós a encontramos e intermediamos a negociação, simples e rápido!
+            <br/><br/>
+            Para solicitar uma peça, você precisa se cadastrar gratuitamente em nosso site como solicitante.
+            <br/><br/>
+            Ao concluir o cadastro,você terá acesso ao nosso painel, que permite que você possa fazer quantos pedidos 
+            forem necessários, com a possibilidade de estar acompanhando o andamento de seus pedidos.
+            <br/><br/>
+            Nós possuímos um painel administrativo que permite o acompanhamento de todas as fases do seu pedido, e 
+            temos regras de garantia e devolução que favorecem o cliente, garantindo satisfação total.
+
+
+            Lojista seja nosso parceiro!
+            Faça seu cadastro como parceiro se deseja firmar parceira duradoura com o site, anunciando peças 
+            especializadas de determinado veículo.
+          </div>
+        </div>
+      </div><!-- final em-1 -->   
+
+      
+
+      <!-- em-10 -->
+      <div class="em" id="em-11">
+        <div class="em-esquerdo">
+          <img width="326px" src="imagens/em-v8.png">
+        </div>
+        <div class="em-direito">
+          <div class="titulo">V8 Motors</div>
+
+          <a href="#this" target="_blank"><span>Website: </span></a>
+
+          <div class="descricao">
+            
+          </div>
+        </div>
+      </div><!-- final em-10 -->
+
+
+      <!-- em-3 -->
+     <!-- <div class="container-holder em" id="em-11" style="position: absolute;">
+        <div class="em-esquerdo">
+          <img src="imagens/em-tudoemofertas.png">
+        </div>
+        <div class="em-direito">
+          <div class="titulo">TUDO EM OFERTAS</div>
+
+          <a href="http://tudoemofertas.com.br" target="_blank"><span>Website: tudoemofertas.com.br</span></a>
+
+          <div class="descricao">
+            
+          </div>
+        </div>
+      </div><!-- final em-3 -->
+
+      <!-- em-4 -->
+      <!--<div class="container-holder em" id="em-12" style="position: absolute;">
+        <div class="em-esquerdo">
+          <img src="imagens/em-emocoes.png">
+        </div>
+        <div class="em-direito">
+          <div class="titulo">EMOÇÕES</div>
+
+          <a href="http://emocoessemlimites.com.br" target="_blank"><span>Website: emocoessemlimites.com.br</span></a>
+
+          <div class="descricao">
+            PROCURA MAIS EMOÇÃO?
+            <br/><br/>
+            Estimular,enfeitiçar,atrair,seduzir,incitar,provocar,apimentar.É o que deve ser feito quando a vida cai na rotina.E 
+            para isso a Emoções sem Limites oferece produtos que vão tornar essas palavras realidade.
+            <br/><br/>
+            Além de podermos acrescentar mais emoção à sua rotina,ainda temos a capacidade de fazê-lo de maneira que você possa 
+            desfrutar do conforto de receber os produtos em sua residência.Você escolhe os produtos desejados,escolhe a melhor 
+            hora,o melhor dia e se desejar um consultor de sua preferência para levar os produtos e mais novidades até você.
+            <br/><br/>
+            Nossa proposta envolve não só nossos planos,mas nossos clientes.Você deseja mais emoção,e merece conseguir de 
+            maneira prática e confortável. 
+            <br/><br/>
+            Conforto.É a palavra que resume nossa estrutura de vendas.
+            <br/><br/>
+
+            <span style="float: right">O poder da escolha é sedutor!</span>
+          </div>
+        </div>
+      </div><!-- final em-4 -->
+
+
+
+    <div class="clear"></div>
+    </div>
+
+  </div>
+
+  <div id="reflexao" data-status="fechado" title="Clique aqui"></div>
+
+  <div id="img-reflexao"></div>
+
+  <div id="contato">
+    <div class="container-holder">
+      
+      <div class="container container12">
+      <div class="wrapper-content">
+
+      <div class="box-1">
+        <div class="kanji-contato">
+          <img src="imagens/kanji_contato1.png" alt="" /> 
+        </div>
+        <div class="titulo">FAÇA UMA VISITA</div>
+        <div class="sub-titulo">ESTAMOS TE ESPERANDO</div>
+        <br/><br/>
+        <p>Allan Junior Ian</p>
+        <span>(47) 9698-4548</span>
+
+        <p>Yago Yuri</p>
+        <span>(47) 9682-7778</span>
+
+        <p>Ygor Yan</p>
+        <span>(47) 9774-3824</span>
+       
+        <p style="margin-top: 0;">&nbsp;</p>
+
+        <span>Rua 1500 Nº 577 Sala 11</span> 
+        <span>Edifício Coliseum - Centro</span>
+        <span><strong>(47) 3056-2221</strong></span>
+        <span>Balneário Camboriú -SC</span> 
+
+        
+        <!-- <p style="margin-top: 160px">Balneário Camboriú - SC</p>        
+        <span><strong><div style="font-size: 14px; float: left; margin-right: 5px">(47) </div> 9698-4548</strong></span>
+        <span>Rua 1500 Nº 290 Sala 203</span>
+        <span>Edifício Telma Regina</span>
+        <span style="margin-top: 20px">allan@allanjuniorian.com.br</span>
+        <div class="divide"></div> -->
+        
+        <!--<p>Curitiba - PR</p>
+        <span><strong>(41) 9543-1110</strong></span>
+        <span>Av. 7 de Setembro Nº 4995</span>
+        <span>Batel, Curitiba</span>
+
+        <div class="divide"></div>
+
+        <p>Florianópolis - SC</p>
+        <span><strong>(48) 9656-1954</strong></span>
+
+        <!--<div class="divide"></div>
+        
+        <p>Curitiba</p>
+        <span>(41) 9543-1110</span>-->
+
+        <div class="divide"></div>
+        <!--<span style="margin-top: 35px">allan@allanjuniorian.com.br</span>-->
+      </div>
+
+      <div class="box-2">
+        <div class="kanji-contato">
+          <img src="imagens/kanji_contato2.png" alt="" /> 
+        </div>
+
+        <div class="titulo">FALE CONOSCO</div>
+        <div class="sub-titulo" >SERÁ UM PRAZER ATENDE-LO(A)</div>
+        <div class="divide"></div>
+        <form id="emailForm" action="enviar.php" method="post" >
+          <input type="text" id="nome" name="nome" placeholder="Nome" />
+          <input type="text" id="email" name="email" placeholder="E-mail" />
+          <input type="text" id="telefone" name="telefone" placeholder="Telefone" class="mask-fone"/>
+          <input type="text" id="assunto" name="assunto" placeholder="Assunto" />
+          <textarea id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
+          <input type="submit" value="ENVIAR" />
+          <div id="resposta"></div>
+        </form>
+      </div>
+      <div class="clear"></div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+</body>
+</html>

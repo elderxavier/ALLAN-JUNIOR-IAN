@@ -1,0 +1,21 @@
+* { outline: none }
+body { margin: 0; padding: 0; background: url("../imagens/bg.png"); }
+
+.alinhamento { width: 1200px; height: auto; margin: 0 auto; }
+
+#topo { width: 100%; height: 164px; background: url("../imagens/logo.png") no-repeat center; margin-top: 30px; }
+
+#bossarosa {opacity: 0.5; cursor: pointer; width: 380px; height: 453px; padding: 20px; margin-left: 20px; float: left; transition: 0.3s; -webkit-transition: 0.3s; -moz-transition: 0.3s; -o-transition: 0.3s;}
+#bossarosa img { width: 100%; }
+#bossarosa:hover {opacity: 1; width: 420px; height: 493px; padding: 0px; float: left; transition: 0.3s; -webkit-transition: 0.3s; -moz-transition: 0.3s; -o-transition: 0.3s;}
+
+#bossa1960 {opacity: 0.5; cursor: pointer; width: 349px; height: 335px; padding: 20px; position: absolute; margin: 49px 0 0 417px; transition: 0.3s; -webkit-transition: 0.3s; -moz-transition: 0.3s; -o-transition: 0.3s;}
+#bossa1960 img { width: 100%; }
+#bossa1960:hover {opacity: 1; width: 389px; height: 375px; padding: 0px; transition: 0.3s; -webkit-transition: 0.3s;-moz-transition: 0.3s; -o-transition: 0.3s;}
+
+#bossablue {opacity: 0.5; cursor: pointer; width: 352px; height: 342px; padding: 20px; float: right; margin: 56px 0 0 -21px; transition: 0.3s; -webkit-transition: 0.3s; -moz-transition: 0.3s; -o-transition: 0.3s;}
+#bossablue img { width: 100%; }
+#bossablue:hover {opacity: 1; width: 392px; height: 382px; padding: 0px; transition: 0.3s; -webkit-transition: 0.3s; -moz-transition: 0.3s; -o-transition: 0.3s;}
+
+
+#bossa-descricao { width: 100%; height: 119px; float: left; margin-bottom: 40px; background: url("../imagens/combossa-descricao.png") no-repeat center; }
