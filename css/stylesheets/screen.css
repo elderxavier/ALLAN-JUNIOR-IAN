@@ -309,22 +309,6 @@ strong {
 #topo #menu li:hover ul {
   display: block;
 }
-/* line 202, ../sass/_geral.sass */
-#topo .facebook {
-  width: 30px;
-  height: 35px;
-  float: right;
-  background: url("../../imagens/icons-menu/facebook.png") no-repeat;
-  margin: 5px 10px 0 0;
-}
-/* line 208, ../sass/_geral.sass */
-#topo .flickr {
-  width: 32px;
-  height: 35px;
-  float: right;
-  background: url("../../imagens/icons-menu/flickr.png") no-repeat;
-  margin: 5px 0 0 0;
-}
 
 #amazingslider-1 img {
   max-width: 1500px !important;
@@ -1008,11 +992,17 @@ html {
           .linkedin{
             background-position: -40px 0px;
           }
-          .youtube{
+          .twitter{            
             background-position: -68px 0px;
           }
-          .twitter{
+          .youtube{
             background-position: -93px 0px;
+          }          
+          .skype{
+            background-position: -123px 0px;
+          }
+          .flickr{
+            background-position: -150px 0px;
           }
           .social-toltip {
             /*text-indent: 0;*/            
